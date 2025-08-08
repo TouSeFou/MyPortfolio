@@ -1,0 +1,41 @@
+.education-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    text-align: left;
+}
+
+.educationCard{
+
+
+    background-color: black;
+    box-shadow: inset;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-radius: 15px;
+    img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-top: -17px;
+        margin-left: -10px;
+        width: 487px;
+        height: 250px;
+    }
+
+}
+
+
+
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 10px;
+    justify-content: center;
+}
