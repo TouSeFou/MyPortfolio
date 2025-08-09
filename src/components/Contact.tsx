@@ -161,6 +161,7 @@ function Contact() {
                               value={message}
                               onChange={(e) => setMessage(e.target.value)}
                               className={`body-form ${messageError ? "error" : ""}`}
+                              style={{fontFamily: 'Arial, sans-serif'}}
                               required
                           />
                           {messageError && <span className="helper-text">Please enter the message</span>}
