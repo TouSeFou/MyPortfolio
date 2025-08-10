@@ -58,7 +58,7 @@ function Navigation({parentToChild, modeChange}: any) {
   };
 
   const drawer = (
-    <Box className="navigation-bar-responsive" onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box className= {mode === 'dark' ? "navigation-bar-responsive-dark" : "navigation-bar-responsive-light"} onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <p className="mobile-menu-top"><ListIcon/>Menu</p>
       <Divider />
       <List>
@@ -94,7 +94,7 @@ function Navigation({parentToChild, modeChange}: any) {
           )}
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color: '#fff' }}>
+              <Button key={item[0]} onClick={() => scrollToSection(item[1])} sx={{ color:'white' }}>
                 {item[0]}
               </Button>
             ))}
@@ -111,8 +111,8 @@ function Navigation({parentToChild, modeChange}: any) {
           }}
           sx={{
             display: { xs: 'block', sm: 'none' },
-            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-          }}
+            '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth, backgroundColor: mode === 'dark' ? 'black' : 'white',
+          }}}
         >
           {drawer}
         </Drawer>

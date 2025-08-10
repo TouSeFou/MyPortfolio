@@ -17,7 +17,7 @@ const educations = [
         institution: "Faculty of Science and Technology UBO",
         period: "09/2024 – 09/2025",
         position: {x: 48.4, y: -4.4833},
-        image: "/ubo.jpg"
+        image: process.env.PUBLIC_URL+"/ubo.jpg"
     },
     {
         degreeName: "Engineering Degree in Data Science and Artificial Intelligence",
@@ -26,7 +26,7 @@ const educations = [
         institution: "National School of Arts and Crafts",
         period: "09/2022 – 09/2025",
         position: {x: 34.0133, y: -6.8326},
-        image: "/ensam.png"
+        image: process.env.PUBLIC_URL+"/ensam.png"
         // image: "https://unevoc.unesco.org/network/up/morocco_ensam_um5.png"
     },
     {
@@ -36,7 +36,7 @@ const educations = [
         institution: "Higher School of Technology",
         period: "09/2020 – 06/2022",
         position: {x: 30.4278, y: -9.5981},
-        image: "/est.png"
+        image: process.env.PUBLIC_URL+"/est.png"
     },
     {
         degreeName: "High School Diploma in Physical Sciences",
@@ -45,7 +45,7 @@ const educations = [
         institution: "Lalla Khadija High School",
         period: "09/2019 – 06/2020",
         position: {x: 23.6848, y: -15.958},
-        image: "lycee.png"
+        image: process.env.PUBLIC_URL+"/lycee.png"
     }
 ];
 
