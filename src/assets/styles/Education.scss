@@ -10,7 +10,7 @@
   box-shadow: inset;
   width: 100%;             /* take full width of container */
   max-width: 487px;        /* prevent it from growing too wide */
-  height: 250px;
+  height: auto;
   padding: 10px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -23,7 +23,8 @@
     border-bottom-right-radius: 0;
     margin-top: -17px;
     margin-left: -10px;
-
+    max-height: 250px;
+    min-height: 250px;
     width: calc(100% + 20px); /* adjust for negative margins */
     max-width: 100%;
     height: auto;             /* keep aspect ratio */
