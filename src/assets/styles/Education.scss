@@ -27,7 +27,7 @@
     min-height: 250px;
     width: calc(100% + 20px); /* adjust for negative margins */
     max-width: 100%;
-    height: auto;             /* keep aspect ratio */
+    // height: auto;             /* keep aspect ratio */
     object-fit: cover;
   }
 }
