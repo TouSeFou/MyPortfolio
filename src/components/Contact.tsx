@@ -114,7 +114,7 @@ function Contact() {
                   )}
 
 
-                  <p style={{paddingLeft:"20px"}}>Got a CDI opportunity or a project waiting to be brought to life? Let’s collaborate and make it happen!</p>
+                  <p style={{paddingLeft:"20px"}}>Got a full-time role or a project waiting to be brought to life? Let’s collaborate and make it happen!</p>
                   <form  className="contact-form" noValidate autoComplete="off">
                       <div className="form-flex">
                           <div className="form-group">
